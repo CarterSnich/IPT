@@ -1,13 +1,5 @@
 <?php
-
-
-$embeds = array(
-    'req1' => '<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FCarterSnich%2FIPT%2Fblob%2Fmaster%2Freq1.php&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>',
-    'req2' => '<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FCarterSnich%2FIPT%2Fblob%2Fmaster%2Freq2.php&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>',
-    'req3' => '<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FCarterSnich%2FIPT%2Fblob%2Fmaster%2Freq3.php&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>',
-    'req4' => '<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FCarterSnich%2FIPT%2Fblob%2Fmaster%2Freq4.php&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>'
-);
-
+    require_once('embeds.php');
 ?>
 
 <!DOCTYPE html>
@@ -40,7 +32,7 @@ $embeds = array(
 
     <div id="main-body">
 
-        <div id="viewer" class="m-auto w-50 h-75">
+        <div id="viewer" class="my-auto mx-5 h-75">
             <div id="viewer-controls" class="d-flex justify-content-between border border-bottom-0 rounded-top py-2">
                 <span class="my-auto mx-3 text-light">Select activity</span>
                 <div id="file-selection" class="dropdown">

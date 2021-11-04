@@ -42,3 +42,7 @@ nav {
 #viewer>div>ul>li:nth-child(2)>a {
     border-radius: .25rem 0 0 .25rem;
 }
+
+.emgithub-container {
+    margin: 0 !important;
+}
