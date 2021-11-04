@@ -12,7 +12,11 @@
 </head>
 
 <body class="p-4">
-    <a href="req3.php" target="_blank" class="text-decoration-none">Open in new tab to see result</a>
+    <script>
+        if (window.location !== window.parent.location) {
+            $('body').html('<a href="req3.php" target="_blank" onload="" class="text-decoration-none">Open in new tab to see result</a>')
+        }
+    </script>
 </body>
 
 </html>

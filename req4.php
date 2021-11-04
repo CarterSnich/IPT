@@ -13,7 +13,11 @@
 
 <body class="p-4">
     <p>When was this webpage created? Check page's title for the answer.</p>
-    <a href="req4.php" target="_blank" class="text-decoration-none">Open in new tab to see result</a>
+    <script>
+        if (window.location !== window.parent.location) {
+            $('body').append('<a href="req4.php" target="_blank" class="text-decoration-none">Open in new tab to see result</a>')
+        }
+    </script>
 </body>
 
 </html>
